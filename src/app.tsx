@@ -1,10 +1,10 @@
-import { PreloadCircle } from "./components/gsap/preloads/preload-circle";
+import { PreloadLoadingShape } from "./components/gsap/preloads/preload-loading-shape";
 import { Header } from "./components/header";
 
 export function App() {
   return (
     <>
-      <PreloadCircle />
+      <PreloadLoadingShape />
       <Header />
       <div className="bg-zinc-950 h-dvh overflow-hidden text-zinc-50">
         <body>Page</body>
