@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@utility masked-img {
+  mask-image: url("/images/logo_cdproject.png");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 100%;
+}
